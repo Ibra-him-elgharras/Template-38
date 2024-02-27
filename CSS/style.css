@@ -389,7 +389,14 @@ body{
 
 .about .about-content .image::after{
     content: "";
-
+    position: absolute;
+    width: 120px;
+    height: 300px;
+    border-left: 80px solid var(--main-color);
+    border-bottom: 80px solid var(--main-color);
+    z-index: -1;
+    right: -150px;
+    top: -40px;
 }
 
 
