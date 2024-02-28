@@ -490,3 +490,20 @@ body{
     }
 
 /* End contact */
+
+/* Start footer */
+.footer{
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 18px;
+    }
+.footer span{
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+
+
+/* End footer */
